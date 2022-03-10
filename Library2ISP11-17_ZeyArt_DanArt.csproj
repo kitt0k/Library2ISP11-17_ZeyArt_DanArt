@@ -224,6 +224,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>BD.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="backdb\Library_Zeynetdinov.bak" />
     <None Include="EF\BD.edmx.diagram">
       <DependentUpon>BD.edmx</DependentUpon>
     </None>

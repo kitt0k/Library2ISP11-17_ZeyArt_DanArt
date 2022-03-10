@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -47,25 +49,17 @@ namespace Library2ISP11_17_ZeyArt_DanArt.Windows
                     imgBook.Source = bitmapImage;
                 }
             }
-
             tbTitle.Text = "Изменения данных книги";
             btAdd.Content = "Изменить";
-
             editBook = book;
-
             txtNameBook.Text = editBook.NameBook;
             txtPublishing.Text = editBook.Publishing.NamePublishing;
             txtYearOfPublishing.Text = Convert.ToString(editBook.YearOfPublishing);
-            //txtGenre.Text = editBook.Genre;
+            // txtGenre.Text = Genre.Namegenre;
             //txtAuthor.Text = editBook.AuthorBook;
             txtNumberOfPages.Text = Convert.ToString(editBook.NumberOfPages);
-
-            isEdit = true;
+            isEdit = true;      
         }
-
-
-
-
             public BookAddWindow()
             {
                 InitializeComponent();
