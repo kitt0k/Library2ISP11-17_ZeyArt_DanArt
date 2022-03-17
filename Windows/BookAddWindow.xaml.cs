@@ -56,7 +56,7 @@ namespace Library2ISP11_17_ZeyArt_DanArt.Windows
             txtPublishing.Text = editBook.Publishing.NamePublishing;
             txtYearOfPublishing.Text = Convert.ToString(editBook.YearOfPublishing);
             // txtgenre.text = genre.namegenre;
-            //txtauthor.text = editbook.authorbook;
+            //txtauthor.text = editbook.authorbook; 
             txtNumberOfPages.Text = Convert.ToString(editBook.NumberOfPages);
             isEdit = true;      
         }
